@@ -2,13 +2,8 @@
 
 A LaTeX resume designed for optimal information density and aesthetic appeal.
 
-> [!IMPORTANT]
-> [English Version is in Here!](https://github.com/fky2015/resume-ng/tree/english).
-> You can also find a download link in [GitHub Release](https://github.com/fky2015/resume-ng/releases/latest).
-
 一个旨在实现最佳的信息密度和美学吸引力的 $\LaTeX$ 简历排版模板项目。
 
-> [!NOTE] 
 > 不熟悉 LaTeX？欢迎尝鲜 Typst 版本的 [Resume-NG](https://github.com/fky2015/resume-ng-typst)！
 
 <div align="center">
@@ -32,7 +27,7 @@ A LaTeX resume designed for optimal information density and aesthetic appeal.
 
 ### Overleaf 在线平台
 
-直接访问[此链接][overleaf]即可。
+直接访问并复制[此项目][overleaf]即可。
 
 ## 宏
 
@@ -57,10 +52,20 @@ A LaTeX resume designed for optimal information density and aesthetic appeal.
 
 **如果你使用 TeXLive/MiKTeX 等主流发行版，可以直接使用本项目，无需手动安装依赖。**
 
+否则，请确保以下依赖安装。
+
+- geometry
+- fancyhdr
+- enumitem
+- footmisc
+- hyperref
+- xeCJKfntef
+- xcolor
+- ctex
+
 ## 有用的相关资源
 
 - [Resume Improvement](https://intdouble.com/resume/)
-- GPTs
 
 ## 致谢
 
@@ -69,4 +74,4 @@ A LaTeX resume designed for optimal information density and aesthetic appeal.
 并采用 $\LaTeX3$ 写成。
 
 
-[overleaf]: https://www.overleaf.com/docs?snip_uri=https://github.com/fky2015/resume-ng/releases/latest/download/resume-ng-zh.zip&engine=xelatex
+[overleaf]: https://www.overleaf.com/read/ygxtzycvwyqm
